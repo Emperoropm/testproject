@@ -19,6 +19,71 @@
     <![endif]-->
 
 </head>
+<style>
+	
+
+.features-section {
+	background-color: #0e1a2a;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+	border-radius:15px;
+}
+
+h1 {
+    color: #ff4f00;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #ff4f00;
+    margin: 10px auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.feature-box {
+    background-color: #ffffff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+
+
+.feature-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .feature-box {
+        padding: 15px;
+    }
+}
+
+</style>
 <body>
 <div id="wrapper">
 	
@@ -26,9 +91,9 @@
 	<div class="top-navbar">
 		<div class="container">
 			<div class="top-nav-left">
-				<span><i class="fa fa-envelope"></i> vasuvasker66@gmail.com</span>
+				<span><i class="fa fa-envelope"></i>japanlink2@gmail.com </span>
 				<span><i class="fa fa-clock"></i> Sun - Fri: 7:00 am - 5.00 pm</span>
-				<span><i class="fa fa-map-marker-alt"></i>balaju-16 kathmandu, Nepal</span>
+				<span><i class="fa fa-map-marker-alt"></i>Bharatpur-10, Chitwan</span>
 			</div>
 			<a href="contact.html" class="top-nav-contact-btn">Contact Us →</a>
 
@@ -46,13 +111,13 @@
                         <span class="icon-bar"></span>
                     </button>
                   <a class="navbar-brand" href="index.html">
-					<img width="120px" padding-bottom="20px" height="auto" src="img/download.jpg" alt="logo"/>
+					<img width="150px"  height="auto" src="img/download.jpg" alt="logo"/>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li> 
 						<li class="active"><a href="about.html">About Us</a></li>
-						<li><a href="courses.html">Courses</a></li>
+						<li><a href="courses.html">Our Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -77,12 +142,15 @@
 					
 						<div class="row"> 
 							<div class="col-md-12">
-								<div class="about-logo">
-									<h3>We are awesome <span class="color">TEAM</span></h3>
-									<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
-                                    	<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+								<div class="about-logo" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:15px;letter-spacing: 1px;">
+									<h3>Japan Link Consultancy Pvt.Ltd.</h3>
+									<p>Japan Link is a premier consultancy dedicated to helping individuals pursue their academic and career aspirations exclusively in Japan. With a strong commitment to providing expert guidance and personalized support, we stand as a reliable partner for students seeking world-class education and transformative experiences in one of the most culturally rich and technologically advanced countries in the world.
+										At Japan Link, we recognize that every individual’s journey is unique. That’s why we offer tailored solutions designed to meet the specific goals, circumstances, and dreams of each student. Whether it’s enrolling in a top-tier Japanese university, participating in language programs, or planning for long-term career growth in Japan, our experienced professionals provide end-to-end assistance. From selecting the right academic institution to helping with admission procedures, visa applications, and accommodation arrangements, we are committed to making the transition to life in Japan smooth and stress-free.
+										We understand that navigating the path to studying abroad can be complex and challenging. With Japan Link by your side, students receive meticulous guidance throughout the entire process, ensuring nothing is overlooked. Our mission is to eliminate the guesswork and administrative burdens so that our clients can focus fully on preparing for their exciting new chapter in Japan.
+										</p>
+                                    	
 								</div>
-								<a href="#" class="btn btn-color">Read more</a>  
+								  
 							</div>
 						</div>  
 						<br>
@@ -92,141 +160,55 @@
 								<img src="img/section-image-1.png" alt="">
 								<div class="space"></div>
 							</div>
-							<div class="col-md-6">
-								<p>Lorem ipsum dolor sit amet, cadipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde fuga error commodi architecto, laudantium culpa tenetur at id, beatae pet.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. adipisicing  sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium,m deserunt.</p>
-								<ul class="list-unstyled">
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum enimdolor sit amet</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Explicabo deleniti neque aliquid</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Consectetur adipisicing elit</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Lorem ipsum dolor sit amet</li>
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Quo issimos molest quibusdam temporibus</li>
-								</ul>
+							<div class="col-md-6" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:15px;letter-spacing: 1px;">
+								<p>Beyond academic consulting, we emphasize the importance of language proficiency as a cornerstone for success. Our Japanese language training programs, led by skilled instructors, are designed to help students gain not only linguistic fluency but also a deeper understanding of Japanese culture and customs. This holistic approach prepares students for meaningful interactions, both inside and outside the classroom, and equips them with the confidence to thrive in their new environment.
+									What sets Japan Link apart is our unwavering dedication to professionalism, integrity, and personalized care. We take pride in building lasting relationships with our clients, guiding them step-by-step toward their educational and professional goals. Whether you are aiming to study in a leading Japanese institution, explore career development opportunities, or expand your skill set, Japan Link is here to support your journey every step of the way.
+									Choose Japan Link, and let us help you turn your dreams of studying and building a future in Japan into reality.
+									</p>
+								
 							</div>
 						</div>	
 						<br/> 
 						<hr>
 						<br>
-						<div class="row">
-							<div class="col-md-4">
-								<!-- Heading and para -->
-								<div class="block-heading-two">
-									<h3><span>Why Choose Us?</span></h3>
+						<section class="features-section">
+							<h1>Why Us?</h1>
+							<div class="features-grid">
+								<div class="feature-box">
+									<i style="font-size: 40px;" class="fa-regular fa-lightbulb"></i>
+									<p style="font-size:15px;"><strong style="font-size:20px;">Personalized Guidance:</strong> We understand that no two journeys are alike, and we provide tailored support to meet each client’s individual needs and goals.</p>
 								</div>
-								<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br/><br/>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
-							</div>
-							<div class="col-md-4">
-								<div class="block-heading-two">
-									<h3><span>Our Solution</span></h3>
-								</div>		
-								<!-- Accordion starts -->
-								<div class="panel-group" id="accordion-alt3">
-								 <!-- Panel. Use "panel-XXX" class for different colors. Replace "XXX" with color. -->
-								  <div class="panel">	
-									<!-- Panel heading -->
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 1
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseOne-alt3" class="panel-collapse collapse">
-										<!-- Panel body -->
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 2
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseTwo-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 3
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseThree-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
-								  <div class="panel">
-									 <div class="panel-heading">
-										<h4 class="panel-title">
-										  <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3">
-											<i class="fa fa-angle-right"></i> Accordion Heading Text Item # 4
-										  </a>
-										</h4>
-									 </div>
-									 <div id="collapseFour-alt3" class="panel-collapse collapse">
-										<div class="panel-body">
-										  Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-										</div>
-									 </div>
-								  </div>
+								<div class="feature-box">
+									<i  style="font-size: 40px;" class="fa-solid fa-handshake"></i>
+									<p style="font-size:15px;"><strong style="font-size:20px;">Comprehensive Support:</strong> From visa applications and admissions to accommodation and cultural orientation, we are with you every step of the way.</p>
 								</div>
-								<!-- Accordion ends -->
-								
-							</div>
-							
-							<div class="col-md-4">
-								<div class="block-heading-two">
-									<h3><span>Our Expertise</span></h3>
-								</div>								
-								<h6>Web Development</h6>
-								<div class="progress pb-sm">
-								  <!-- White color (progress-bar-white) -->
-								  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-									 <span class="sr-only">40% Complete (success)</span>
-								  </div>
+								<div class="feature-box">
+									<i style="font-size: 40px;" class="fa-solid fa-users-gear"></i>
+									<p style="font-size:15px;"><strong style="font-size:20px;">Industry Connections:</strong> Our partnerships with universities and employers provide access to the best academic and career opportunities in Japan.
+									</p>
 								</div>
-								<h6>Designing</h6>
-								<div class="progress pb-sm">
-								  <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-									 <span class="sr-only">40% Complete (success)</span>
-								  </div>
+								<div class="feature-box">
+									<i style="font-size: 40px;" class="fa-solid fa-graduation-cap"></i>
+									<p style="font-size:15px;"><strong style="font-size:20px;">Flexible Learning Options:</strong> We offer both in-person and online language courses, accommodating diverse schedules and learning preferences.
+									</p>
 								</div>
-								<h6>User Experience</h6>
-								<div class="progress pb-sm">
-								  <div class="progress-bar progress-bar-lblue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-									 <span class="sr-only">40% Complete (success)</span>
-								  </div>
+								<div class="feature-box">
+									<i  style="font-size: 40px;" class="fa-solid fa-headset"></i>
+									<p style="font-size:15px;"><strong style="font-size:20px;">Ongoing Support:</strong> Our commitment to our clients extends beyond placement. We provide continuous assistance to ensure a smooth transition and long-term success in Japan.
+									</p>
 								</div>
-								<h6>Development</h6>
-								<div class="progress pb-sm">
-								  <div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-									 <span class="sr-only">40% Complete (success)</span>
-								  </div>
+								<div class="feature-box">
+									<i  style="font-size: 40px;" class="fa-solid fa-book"></i>
+									<p style="font-size:15px;"><strong style="font-size:20px;">Pre-departure Briefing:</strong> If you are visiting in Japan very first time, then our pre-departure briefing will be much helpful.</p>
 								</div>
 							</div>
-							
-						</div>
-										
-						  
-						<hr>
-						<br>
+						</section>
+
+						
 						<!-- Our Team starts -->
 				
 						<!-- Heading -->
-						<div class="block-heading-six">
-							<h3 class="bg-color">Our Team</h3>
-						</div>
+						
 						<br>
 						
 						<!-- Our team starts -->
@@ -237,42 +219,23 @@
 									<!-- Team Member -->
 									<div class="team-member">
 										<!-- Image -->
-										<img class="img-responsive" src="img/team1.jpg" alt="">
-										<!-- Name -->
-										<h4>Johne Doe</h4>
-										<span class="deg">Creative</span> 
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- Team Member -->
-									<div class="team-member">
-										<!-- Image -->
 										<img class="img-responsive" src="img/team2.jpg" alt="">
 										<!-- Name -->
-										<h4>Jennifer</h4>
-										<span class="deg">Programmer</span> 
+										<h4>Anil Poudel</h4>
+										<span class="deg">CEO</span> <br/>
+										<span class="deg">+8 18037764436</span> 
+
 									</div>
 								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- Team Member -->
-									<div class="team-member">
-										<!-- Image -->
-										<img class="img-responsive" src="img/team3.jpg" alt="">
-										<!-- Name -->
-										<h4>Christean</h4>
-										<span class="deg">CEO</span> 
+								<div >
+									<strong style="font-size: 20px;">Start Your Journey with Japan Link:</strong>
+<p style="font-size: 15px;">Whether you dream of pursuing higher education or building a rewarding career in Japan, Japan Link is here to make your aspirations a reality. With our expert guidance, language training, and industry connections, we provide the tools you need to succeed. Let us be your trusted partner on this transformative journey, ensuring that every step is seamless and stress-free.</p><br/>
+<strong style="font-size: 20px;">Choose Japan Link, and let us help you unlock your potential and create a bright future in Japan.</strong><p style="font-size: 15px;"> With our expertise, dedication, and personalized care, your journey to Japan will not only be achievable but truly life-changing.</p>
+
 									</div>
 								</div>
-								<div class="col-md-3 col-sm-6">
-									<!-- Team Member -->
-									<div class="team-member">
-										<!-- Image -->
-										<img class="img-responsive" src="img/team4.jpg" alt="">
-										<!-- Name -->
-										<h4>Kerinele rase</h4>
-										<span class="deg">Manager</span> 
-									</div>
-								</div>
+								
+								
 							</div>
 						</div>
 						
@@ -284,78 +247,77 @@
 				</div>
 	</section>
 	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>Abovecompany Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3">
-					<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
+				<div class="col-lg-3">
+					<div class="widget">
+						<strong><b class="text-danger">Japan</b> Link<br/></strong>
+						<address>
+						<strong>Consultancy Pvt.Ltd.</strong><br>
+						Welcome to Japan Link <br>
+						 Consultancy Pvt.Ltd. and Thank you<br/>
+						for your interest<br/></address>
 						<p>
-							<span>&copy; Above Site All right reserved. Template By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
+							<i class="icon-phone"></i>+8 18037764436<br>
+							<i class="icon-envelope-alt"></i> japanlink2@gmail.com
 						</p>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
+				<div class="col-lg-3">
+					<div class="widget">
+						<h5 class="widgetheading">Quick Links</h5>
+						<ul class="link-list">
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="courses.html">Our Services</a></li>
+							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="widget">
+						<h5 class="widgetheading">Branch office</h5>
+						<ul class="link-list">
+							<li>
+								<i class="fa-solid fa-house"></i> Bharatpur-10, Chitwan<br/>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="widget">
+						<h5 class="widgetheading">Corporate Ofice</h5>
+						<ul class="link-list">
+							<i class="fa-solid fa-house"></i> Bharatpur-10, Chitwan<br/>
+							<i class="fa-solid fa-phone"></i> 056-596903, 9816407112<br/>
+							<i class="fa-solid fa-envelope"></i> japanlink2@gmail.com
+						</ul>
+					</div><div class="icons" style="letter-spacing: 3px;">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	</footer>
+		<div id="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="copyright">
+							<p>
+								<span>&copy; Above Site All right reserved.</span><a href="http://webthemez.com" target="_blank"></a>
+							</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		</footer>
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
@@ -371,5 +333,6 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://kit.fontawesome.com/d4bd359809.js" crossorigin="anonymous"></script>
 </body>
 </html>
