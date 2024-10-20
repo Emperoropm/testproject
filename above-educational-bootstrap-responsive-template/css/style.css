@@ -12,18 +12,42 @@ Do not remove the back-link in this web template
 
 /* ------------------------------ */
 
-.navbar-logo {
-    width: 157.5px; /* Increase width by 5% (150px * 1.05) */
-    height: auto;  /* Maintain aspect ratio */
-    display: block;
-    position: relative;
-    top: -5px;  /* Shift the logo upwards slightly */
-    transition: all 0.3s ease;  /* Smooth transition on hover or resizing */
+/* Enlarge the logo and shift it downward */
+.logo-img {
+    width: 220px;  /* Maintain slightly larger size */
+    height: auto;  /* Preserve aspect ratio */
+    margin-top: 10px;  /* Shift the logo down */
+    transition: all 0.3s ease-in-out;  /* Smooth transition */
 }
 
+/* Adjust the logo container layout */
+.logo-container {
+    display: flex;
+    align-items: flex-start;  /* Align logo at the top */
+    justify-content: flex-start;  /* Keep the logo left-aligned */
+    padding: 10px 10px;  /* Adjust padding for more spacing */
+}
+
+/* Adjust header layout for better alignment */
 .navbar-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;  /* Create space between logo and menu */
+}
+
+/* Optional: Slight zoom effect on hover */
+.logo-img:hover {
+    transform: scale(1.05);  /* Slightly enlarge on hover */
+}
+
+/* Ensure the logo is responsive */
+@media (max-width: 768px) {
+    .logo-img {
+        width: 180px;  /* Smaller size on mobile */
+    }
+    .logo-container {
+        justify-content: center;  /* Center-align the logo on small screens */
+    }
 }
 
 /* ------------------------------ */
