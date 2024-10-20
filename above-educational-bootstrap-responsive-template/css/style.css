@@ -10,7 +10,21 @@ Do not remove the back-link in this web template
 @import url('animate.css');
 
 
+/* ------------------------------ */
 
+.navbar-logo {
+    width: 157.5px; /* Increase width by 5% (150px * 1.05) */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;
+    position: relative;
+    top: -5px;  /* Shift the logo upwards slightly */
+    transition: all 0.3s ease;  /* Smooth transition on hover or resizing */
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
 
 /* ------------------------------ */
 /* Slider Container */
@@ -98,26 +112,25 @@ Do not remove the back-link in this web template
 /* ------------------------------ */
 
 
-
 /* "Know More" Button Styling */
 .know-more-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 24px;
+    padding: 16px 32px;  /* Reduced padding */
     background-color: #ff5a5f;  /* Red background */
     color: #fff;  /* White text */
-    font-size: 1.7rem;
+    font-size: 1.9rem;  /* Slightly smaller font */
     text-decoration: none;
-    border-radius: 25px;  /* Smooth rounded edges */
+    border-radius: 20px;  /* Slightly smaller rounded edges */
     margin-top: auto;  /* Push button to the bottom */
     transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
 }
 
 .know-more-btn span {
-    margin-left: 8px;  /* Tighten arrow spacing slightly */
-    font-size: 1.7rem;  /* Arrow icon size */
+    margin-left: 5px;  /* Adjusted arrow spacing */
+    font-size: 1.5rem;  /* Arrow icon size matching the button */
 }
 
 .know-more-btn:hover {
@@ -158,10 +171,10 @@ Do not remove the back-link in this web template
 
 /* Service Box Styling */
 .skill-home-solid .box-area {
-    flex: 1 1 calc(25% - 20px);  /* 4 boxes per row */
-    max-width: calc(25% - 20px);
-    min-width: 250px;
-    height: 450px;
+    flex: 1 1 calc(45% - 20px);  /* 2 boxes per row with more width */
+    max-width: calc(50% - 20px);  /* Ensure the max width matches */
+    min-width: 350px;  /* Increase the minimum width */
+    height: 600px;
     padding: 30px;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -187,6 +200,7 @@ Do not remove the back-link in this web template
     background-image: url('../img/hover1.jpg');  /* Hover background image */
     color: #fff;  /* Change font color to white */
 }
+
 
 /* Ensure child elements (h3, p, etc.) inherit the hover font color */
 .skill-home-solid .box-area:hover h3, 
